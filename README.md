@@ -41,7 +41,7 @@ All primary datasets are public and can be downloaded separately. File names in 
 | CORUM | Protein complex membership |
 | UCSC | phyloP conservation (hg38) |
 
-Sequencing data generated in this study are deposited at [ACCESSION]. Significant dependency results are provided as Table S1.
+Significant dependency results are provided as Table S1.
 
 Genome build: hg38.
 
