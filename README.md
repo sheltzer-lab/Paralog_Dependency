@@ -16,9 +16,9 @@ R_package_versions.csv    package versions from the analysis environment
 | Figure | Script | Analysis |
 |---|---|---|
 | 1, S1 | [Figure 1 and Figure S1.r](Codes/Fig1%20%26%20Fig%20S1/Figure%201%20and%20Figure%20S1.r) | Chromosome-arm loss vs neutral dependency screen (DepMap CRISPR); aneuploidy-score filtering |
-| 2 | [Figure 2.r](Codes/Fig2/Figure%202.r) | Paralog pair identification and characterisation (panels L-S): identity, family size, interactors, co-localisation, conservation |
+| 2 | [Figure 2.r](Codes/Fig2/Figure%202.r) | Paralog pair identification and characterisation: identity, family size, interactors, co-localisation, conservation |
 | 3 | [Figure 3.r](Codes/Fig3/Figure%203.r) | Dosage compensation (panels B-H): TCGA ATAC-seq and H3K27ac HiChIP TSS profiles, stabilised log2FC and permutation tests |
-| 4 | [Figure 4.r](Codes/Fig4/Figure%204.r) | CYCLOPS genes and interaction-network dependencies (panels F, Q, R); GO enrichment |
+| 4 | [Figure 4.r](Codes/Fig4/Figure%204.r) | CYCLOPS genes and interaction-network dependencies; GO enrichment |
 | 6 | [Hotspot mutations Fixed.qmd](Codes/Fig6/Hotspot%20mutations%20Fixed.qmd) | Benchmarking against published biomarker-associated vulnerabilities |
 | S2 | [Figure S2.r](Codes/FigS2/Figure%20S2.r) | CRISPR off-target assessment: sgRNA identity to partner paralog, VAF from targeted sequencing, TMB |
 | S3 | [Figure S3.r](Codes/FigS3/Figure%20S3.r) | RNAi replication of top paralog dependencies (DEMETER2) |
