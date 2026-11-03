@@ -1,6 +1,6 @@
 # =============================================================================================
 # Loss of Y, chromosome-arm loss and gain, and gene essentiality in the Sanger tumour-organoid biobank
-# Supplementary figure (panels B-F) and supplementary tables
+# Supplementary figure (panels B-G) and supplementary tables
 #
 # Data: Herranz-Ors et al., Nature 2026, doi:10.1038/s41586-026-10830-y
 #   Supplementary Tables 2, 3, 4 and 6, and CNV-segments_organoids.tsv (Figshare,
@@ -1551,9 +1551,6 @@ fwrite(data.table(marker = names(y_markers), female_99th_percentile_TPM = female
                   threshold_TPM = pmax(y_rna_floor_tpm, female_q99)), file.path(table_dir, "y_marker_thresholds.csv"))
 
 ## ==== 13. Two-sheet supplementary table (copy of two sheets from the main workbook) ====
-# Writes a NEW file; the seven-sheet workbook is left untouched. Uses the tables already in memory, or,
-# in a fresh R session, reads them back from the existing workbook, so nothing is recomputed.
-# (In a fresh session, first set: supp_table_dir <- "path/to/your/output/supplementary_tables")
 main_workbook <- file.path(supp_table_dir, "supplementary_table_aneuploidy_calls_and_vulnerabilities.xlsx")
 if (exists("organoid_calls") && exists("hits_table")) {
   two_sheets <- list(Aneuploidy_calls = organoid_calls, Dependency_analysis = hits_table)
